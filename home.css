@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+height: 125%;
+background-size: cover;
+background-image: url('bank.jpg');
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.city{
+
+
+    text-align: right;
+    width: 100%;
+    background-color:  rgb(50, 253, 141);
+    border-bottom: 50px solid rgb(255, 0, 204);
+    border-top: 50px solid rgb(255, 0, 204);
+    height: 550px;
+    
+} 
+
+#part1{
+    text-align: center;
+    padding-right: 20px;
+    
+}
+
+b{
+    
+    font-size: large;
+    text-align: right;
+    border: 5px solid rgb(255, 0, 204);;
+    border-radius: 5px;
+    background-color:rgb(50, 253, 141);
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px 15px;
+    
+}
+
+b:hover{
+    display: inline-block;
+    transform: scaleX(1);
+    text-decoration: underline;
+    font-size: 30px;
+    transition: all .3s ease-in-out ;
+    border: 2px solid white;
+    background-color: yellow;
+    color:rgb(255, 0, 204) ;
+
+}
+.city h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(66, 232, 88);
+}
+.city h1:hover{
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 204);
+    border: none;
+    color: rgb(66, 232, 88);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+.bottom{
+    align-items: baseline;
+    
+    font-size: 20px;
+    color:coral;
+    background-color:rgb(213, 213, 0); 
+    
+    border-top: 2px solid rgb(255, 0, 204);;
+    border-left: 2px solid rgb(255, 0, 204);;
+    border-right: 2px solid rgb(255, 0, 204);;
+
+    position: absolute; bottom: 0px; 
+    width: 100%;
+    
+}
+p.bot{
+    text-align: bottom;
+    border: 1 solid rgb(193, 36, 193);
+    padding: 0px;
+    margin: 20px;
+    font-size: 20px;
+    color:coral;
+    background-color:rgb(21, 21, 19); 
+    text-align: center;
+}
+
+
